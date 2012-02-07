@@ -12,6 +12,7 @@ Deploy
 ------
 
 You need to pass 4 arguments to this script:
+
 - The path to the repo you want to deploy.
 
 - The S3 bucket to deploy the code to.
