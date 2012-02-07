@@ -1,0 +1,11 @@
+bin/
+eggs/
+develop-eggs/
+parts/
+downloads/
+*.egg-info/
+*.db
+*.pyc
+.installed.cfg
+sample.csv
+*.swp
