@@ -1,9 +1,0 @@
-I guess this is a good example of why using bash often makes more sense than using python when you endup with lots of system calls in your python code :)
-
-I started building a deploy script in python to ship code to a cluster of EC2 instances on AWS, and realized after a while that the whole procedure made much more sense in bash. 
-
-This is how it works :
-
-> ./deploy.sh /path/to/repo s3_bucket ~/.amazon/ec2-keypair.pem /path/to/file/to/execute/in/prod.sh 
-
-It requires the ec2-api-tools to be installed.
