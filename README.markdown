@@ -21,7 +21,9 @@ You need to pass 4 arguments to this script:
 
 - The path to the bash file you want to execute in prod.
 
+
 	$ ./deploy.sh /path/to/repo s3_bucket ~/.amazon/ec2-keypair.pem /path/to/file/to/execute/in/prod.sh 
+
 
 It requires the ec2-api-tools to be installed.
 
