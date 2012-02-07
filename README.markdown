@@ -12,10 +12,13 @@ Deploy
 ------
 
 You need to pass 4 arguments to this script:
- - The path to the repo you want to deploy.
- - The S3 bucket to deploy the code to.
- - The path to the EC2 keypair
- - The path to the bash file you want to execute in prod.
+- The path to the repo you want to deploy.
+
+- The S3 bucket to deploy the code to.
+
+- The path to the EC2 keypair
+
+- The path to the bash file you want to execute in prod.
 
 	$ ./deploy.sh /path/to/repo s3_bucket ~/.amazon/ec2-keypair.pem /path/to/file/to/execute/in/prod.sh 
 
